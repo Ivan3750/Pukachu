@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+/*     border: 1px solid #000; */
+}
+.card {
+    background-color: #fddb00;
+    width: 450px;
+    height: 600px;
+    margin: 60px auto;
+    border-radius: 15px;
+    padding: 20px;
+}
+.card__box {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/001/946/569/original/abstract-geometric-hexagons-yellow-background-with-diagonal-striped-lines-free-vector.jpg);
+    background-size: cover;
+    height: 100%;
+    padding: 10px 15px; 
+    transition: 0.5s;
+}
+.card:hover .card__box {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/003/015/451/original/comic-background-yellow-color-simple-free-vector.jpg);
+}
+
+.box__header {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.box__header-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box__photo{
+    /* margin-left: 10px; */
+    border-radius: 20px;
+    border: 1px solid #000;
+    width: 20px;
+    height: 20px;
+}
+.box__image-info {
+    text-align: center;
+    border: 1px solid rgb(255, 251, 0);
+    background-color: #dfa400;
+    font-size: 12px;
+    font-style: italic;
+}
+.box-circle{
+    border: 1px solid #000;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+.box__main{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px  solid #000;
+    height: 40px;
+}
+
+.box__info {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border-bottom: 2px  solid #000;
+    height: 60px;
+
+}
+#photo__star{
+    margin-left: -40px;
+}
+span{
+    text-decoration: solid;
+}
+.box__data-text{
+    display: flex;
+    justify-content: space-between;
+}
+.box__data-photo{
+    display: flex;
+    justify-content: space-between;
+    margin: 1px 10px;
+}
+.data__text{
+    font-size: 10px;
+}
+.box__data-info{
+    border: 0.4px solid #000;
+    box-shadow: 2px 2px 1px #00000037;
+    font-size: 14px;
+    width: 350px;
+    margin: 4px auto;
+}
+.footer-text{
+    margin-top: 3px;
+    font-size: 9px;
+}
+h2{
+    font-family: 'Alata', sans-serif;
+}
